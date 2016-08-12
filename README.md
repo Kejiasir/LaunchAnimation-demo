@@ -16,4 +16,5 @@
                              duration:1.5f]];
 ```
 
-
+##License
+**MIT LICENSE**
