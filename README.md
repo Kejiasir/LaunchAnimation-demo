@@ -7,7 +7,7 @@
 * 二. clone代码, 把demo中的LaunchAnimaiton文件夹copy到您的项目中
 
 #### 如何使用?
-* 在 AppDelegate.m 文件中 import "LaunchImageView.h"头文件即可
+* 在 AppDelegate.m 文件中 `import "LaunchImageView.h"`头文件即可
 * 使用如下:
 ```Objective-C
 [self.window addSubview:[[LaunchImageView alloc]
