@@ -8,17 +8,13 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-
-#define WIDTH  [[UIScreen mainScreen] bounds].size.width
-#define HEIGHT [[UIScreen mainScreen] bounds].size.height
-#define MAINSCREEN [[UIScreen mainScreen] currentMode].size
+#import "LaunchImageView.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -28,69 +24,11 @@
                                             initWithRootViewController:[[ViewController alloc] init]];
     self.window.rootViewController = navigationVC;
     [self.window makeKeyAndVisible];
-    [self setupLaunchImage];
+    [self.window addSubview:[[LaunchImageView alloc]
+                             initWithFrame:self.window.bounds
+                             animationType:AnimationTypeUpAndDown
+                             duration:1.5f]];
     return YES;
-}
-
-- (void)setupLaunchImage {
-    
-    UIImage *launchImage = [self launchImage];
-    UIView *bgLaunchView = [[UIView alloc] init];
-    [bgLaunchView setFrame:self.window.bounds];
-    [self.window addSubview:bgLaunchView];
-    
-    // top image
-    UIImageView *topImageView = [[UIImageView alloc] init];
-    [topImageView setFrame:CGRectMake(0, 0, WIDTH, HEIGHT*0.5)];
-    CGRect topImgRect = CGRectMake(0, 0, MAINSCREEN.width, MAINSCREEN.height*0.5);
-    [topImageView setImage:[self clipImage:launchImage withRect:topImgRect]];
-    
-    // bottom image
-    UIImageView *bottomImageView = [[UIImageView alloc] init];
-    [bottomImageView setFrame:CGRectMake(0, HEIGHT*0.5, WIDTH, HEIGHT*0.5)];
-    CGRect bottomImgRect = CGRectMake(0, MAINSCREEN.height*0.5, MAINSCREEN.width, MAINSCREEN.height*0.5);
-    [bottomImageView setImage:[self clipImage:launchImage withRect:bottomImgRect]];
-    
-    [bgLaunchView addSubview:topImageView];
-    [bgLaunchView addSubview:bottomImageView];
-    
-    // delay animation
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [UIView animateWithDuration:1.5f animations:^{
-            CGRect topRect = topImageView.frame;
-            topRect.origin.y -= HEIGHT;
-            topImageView.frame = topRect;
-            
-            CGRect bottomRect = bottomImageView.frame;
-            bottomRect.origin.y += HEIGHT;
-            bottomImageView.frame = bottomRect;
-        } completion:^(BOOL finished) {
-            [bgLaunchView removeFromSuperview];
-        }];
-    });
-}
-
-- (UIImage *)launchImage {
-    CGSize viewSize = [UIScreen mainScreen].bounds.size;
-    NSString *viewOrientation = @"Portrait"; // Horizontal "Landscape"
-    NSString *launchImage = nil;
-    NSArray *imagesDict = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
-    for (NSDictionary *dict in imagesDict) {
-        CGSize imageSize = CGSizeFromString(dict[@"UILaunchImageSize"]);
-        if (CGSizeEqualToSize(imageSize, viewSize) &&
-            [viewOrientation isEqualToString:dict[@"UILaunchImageOrientation"]]) {
-            launchImage = dict[@"UILaunchImageName"];
-        }
-    }
-    return [UIImage imageNamed:launchImage];
-}
-
-- (UIImage *)clipImage:(UIImage *)image withRect:(CGRect)rect {
-    CGRect clipFrame = rect;
-    CGImageRef refImage = CGImageCreateWithImageInRect(image.CGImage, clipFrame);
-    UIImage *newImage = [UIImage imageWithCGImage:refImage];
-    CGImageRelease(refImage);
-    return newImage;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

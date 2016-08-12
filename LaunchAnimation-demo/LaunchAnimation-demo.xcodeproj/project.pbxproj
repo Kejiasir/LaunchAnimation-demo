@@ -11,6 +11,8 @@
 		A28107BD1D5CC404002704D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28107BC1D5CC404002704D3 /* AppDelegate.m */; };
 		A28107C01D5CC404002704D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28107BF1D5CC404002704D3 /* ViewController.m */; };
 		A28107C51D5CC404002704D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28107C41D5CC404002704D3 /* Assets.xcassets */; };
+		A2DC66B41D5DE30F00420F63 /* LaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DC66B11D5DE30F00420F63 /* LaunchImageView.m */; };
+		A2DC66B51D5DE30F00420F63 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DC66B31D5DE30F00420F63 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		A28107BF1D5CC404002704D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A28107C41D5CC404002704D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A28107C91D5CC404002704D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DC66B01D5DE30F00420F63 /* LaunchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageView.h; sourceTree = "<group>"; };
+		A2DC66B11D5DE30F00420F63 /* LaunchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchImageView.m; sourceTree = "<group>"; };
+		A2DC66B21D5DE30F00420F63 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		A2DC66B31D5DE30F00420F63 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		A28107B71D5CC404002704D3 /* LaunchAnimation-demo */ = {
 			isa = PBXGroup;
 			children = (
+				A2DC66AF1D5DE30F00420F63 /* LaunchAnimation */,
 				A28107BB1D5CC404002704D3 /* AppDelegate.h */,
 				A28107BC1D5CC404002704D3 /* AppDelegate.m */,
 				A28107BE1D5CC404002704D3 /* ViewController.h */,
@@ -71,6 +78,17 @@
 				A28107B91D5CC404002704D3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2DC66AF1D5DE30F00420F63 /* LaunchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC66B01D5DE30F00420F63 /* LaunchImageView.h */,
+				A2DC66B11D5DE30F00420F63 /* LaunchImageView.m */,
+				A2DC66B21D5DE30F00420F63 /* UIImage+Extension.h */,
+				A2DC66B31D5DE30F00420F63 /* UIImage+Extension.m */,
+			);
+			path = LaunchAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DC66B51D5DE30F00420F63 /* UIImage+Extension.m in Sources */,
 				A28107C01D5CC404002704D3 /* ViewController.m in Sources */,
+				A2DC66B41D5DE30F00420F63 /* LaunchImageView.m in Sources */,
 				A28107BD1D5CC404002704D3 /* AppDelegate.m in Sources */,
 				A28107BA1D5CC404002704D3 /* main.m in Sources */,
 			);
@@ -277,6 +297,7 @@
 				A28107CE1D5CC404002704D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
