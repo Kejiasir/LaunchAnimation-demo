@@ -1,37 +1,15 @@
 Pod::Spec.new do |s|
   s.name         = "LaunchAnimation"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of LaunchAnimation."
+  s.version      = "0.1.0"
+  s.summary      = "iOS启动动画"
   s.description  = <<-DESC
-  
+                  一行代码集成启动动画
                    DESC
-  s.homepage     = "http://EXAMPLE/LaunchAnimation"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "Arvin" => "yasir86@126.com" }
-  # Or just: s.author    = "Arvin"
-  # s.authors            = { "Arvin" => "yasir86@126.com" }
-  # s.social_media_url   = "http://twitter.com/Arvin"
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
-  s.source       = { :git => "http://EXAMPLE/LaunchAnimation.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-  # s.public_header_files = "Classes/**/*.h"
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-  # s.requires_arc = true
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.homepage     = "https://github.com/Kejiasir/" 
+  s.license      = "MIT" 
+  s.author             = { "Arvin" => "yasir86@126.com" } 
+  s.platform     = :ios, "7.0" 
+  s.source       = { :git => "https://github.com/Kejiasir/LaunchAnimation-demo.git", :tag => "0.1.0" }
+  s.source_files  = "LaunchAnimation-demo/LaunchAnimation/*.{h,m}" 
+  s.requires_arc = true 
 end
