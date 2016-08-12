@@ -3,7 +3,7 @@
 * 您只需要一句代码就能使启动图开启一个动画效果
 
 #### 怎么集成?
-* 一. 使用CocoaPods集成, pod 'LaunchAnimaiton', '~> 0.1.0'
+* 一. 使用CocoaPods集成, `pod 'LaunchAnimaiton', '~> 0.1.0'` 
 * 二. clone代码, 把demo中的LaunchAnimaiton文件夹copy到您的项目中
 
 #### 如何使用?
