@@ -9,5 +9,12 @@
 
 #### 如何使用?
 * 在 AppDelegate.m 文件中 import "LaunchImageView.h"头文件即可
+* 使用如下:
+```Objective-C
+[self.window addSubview:[[LaunchImageView alloc]
+                             initWithFrame:self.window.bounds
+                             animationType:AnimationTypeUpAndDown
+                             duration:1.5f]];
+```
 
 
