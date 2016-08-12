@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "LaunchAnimation"
   s.version      = "0.1.0"
-  s.summary      = "iOS启动动画"
+  s.summary      = "只需要一行代码就可以使您的项目增加一个启动动画效果"
   s.description  = <<-DESC
-                  只需要一行代码就能开启简单的启动动画效果
+                  只需要一行代码就可以使您的项目增加一个启动动画效果,简单快捷,没有任何依赖
                    DESC
   s.homepage     = "https://github.com/Kejiasir/" 
   s.license      = "MIT" 
