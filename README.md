@@ -25,9 +25,14 @@
                              duration:1.5f]];
 ```
 
-## 另外需要注意的
+### 另外需要注意的
 * 请把启动图片放在项目的 `Assets.xcassets` 文件中, 应当从Brand Assets中加载
 ![icon001](tipsImage.png "启动图片应当从Brand Assets中加载")
+
+### 嗯, 最后放几张图吧(gif图不太好录哦!!!只能是截图了)
+![icon002](Animation001.png "这是截图001")
+![icon003](Animation002.png "这是截图002")
+![icon004](Animation003.png "这是截图003")
 
 
 ##License
