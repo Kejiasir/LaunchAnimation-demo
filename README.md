@@ -25,10 +25,10 @@
                              duration:1.5f]];
 ```
 
-### 另外需要注意的<br>
+## 另外需要注意的<br>
 **请把启动图片放在项目的 `Assets.xcassets` 文件中, 应当从Brand Assets中加载**
 
-<img src="tipsImage.png?v=3&s=100" alt="GitHub" title="启动图片应当从Brand Assets中加载" width="780" height="250"/>
+<img src="tipsImage.png?v=3&s=100" alt="GitHub" title="启动图片应当从Brand Assets中加载" width="780" height="220"/>
 
 ### 嗯, 最后放几张图吧(gif图不太好录哦!!! 只能是截图了)
 
