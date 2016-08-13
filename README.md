@@ -10,6 +10,8 @@
 - 在 AppDelegate.m 文件中 `import "LaunchImageView.h"`头文件即可
 - 使用如下一句代码:
 ```Objective-C
+// 切记:在添加前必须先设置window的视图可见并显示
+// 即调用:[self.window makeKeyAndVisible],否则不会展示动画效果
 [self.window addSubview:[[LaunchImageView alloc]
                              initWithFrame:self.window.bounds
                              animationType:AnimationTypeUpAndDown
