@@ -4,15 +4,17 @@
 
 ##  怎么集成?
 ### 手动添加:<br>
-*   1.Clone项目, 将Demo中的 LaunchAnimaiton 文件夹Copy到您的工程目录中<br> 
+*   1. Clone/DownLoad本项目
+*   2. 将Demo中的 LaunchAnimaiton 文件夹Copy到您的工程目录中<br> 
 
 ### CocoaPods:<br>
-*   1.在 Podfile 中添加 `pod 'LaunchAnimaiton', '~> 0.1.0'`<br>
-*   2.执行 pod install 或 pod update<br> 
+*   1. 在 Podfile 中添加 `pod 'LaunchAnimaiton', '~> 0.1.0'`<br>
+*   2. 在终端执行 pod install 或 pod update 命令<br> 
 
 ## 如何使用?
 *  在 AppDelegate.m 文件中 `import "LaunchImageView.h"`头文件即可
-*  使用如下一句代码:
+
+*  如您所见一句代码:
 ```Objective-C
 // 切记:在添加前必须先设置window的视图可见并显示
 // 即调用:[self.window makeKeyAndVisible],否则不会展示动画效果
@@ -23,4 +25,4 @@
 ```
 
 ##License
-**MIT LICENSE**
+**LaunchAnimaiton 使用 MIT 许可证，详情见 LICENSE 文件**
