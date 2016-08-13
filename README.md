@@ -25,20 +25,17 @@
                              duration:1.5f]];
 ```
 
-### 另外需要注意的
-* 请把启动图片放在项目的 `Assets.xcassets` 文件中, 应当从Brand Assets中加载
+### 另外需要注意的<br>
+**请把启动图片放在项目的 `Assets.xcassets` 文件中, 应当从Brand Assets中加载**
 
-![icon001](tipsImage.png "启动图片应当从Brand Assets中加载")
+<img src="tipsImage.png?v=3&s=100" alt="GitHub" title="启动图片应当从Brand Assets中加载" width="780" height="250"/>
 
-### 嗯, 最后放几张图吧(gif图不太好录哦!!!只能是截图了)
+### 嗯, 最后放几张图吧(gif图不太好录哦!!! 只能是截图了)
 
-![icon002](<img src="./Animation001.png" width = "300" height = "200" alt="图片名称" align=center /> "这是截图001") 
-
-![icon003](Animation002.png "这是截图002") 
-
-![icon004](Animation003.png "这是截图003")
-
-
+<img src="Animation001.png?v=3&s=100" alt="GitHub" title="第一种动画效果" width="260" height="480"/> 
+<img src="Animation002.png?v=3&s=100" alt="GitHub" title="第二种动画效果" width="260" height="480"/> 
+<img src="Animation003.png?v=3&s=100" alt="GitHub" title="第三种动画效果" width="260" height="480"/>
+ 
 
 ##License
 **LaunchAnimaiton 使用 MIT 许可证，详情见 LICENSE 文件**
