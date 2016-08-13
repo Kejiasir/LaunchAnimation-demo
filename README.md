@@ -25,5 +25,10 @@
                              duration:1.5f]];
 ```
 
+## 另外可能要注意的
+* 请把启动图片放在项目的 `Assets.xcassets` 文件中
+![启动图片应当从Brand Assets中加载](tipsImage.png)
+
+
 ##License
 **LaunchAnimaiton 使用 MIT 许可证，详情见 LICENSE 文件**
