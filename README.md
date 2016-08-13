@@ -32,11 +32,11 @@
 
 ### 嗯, 最后放几张图吧(gif图不太好录哦!!!只能是截图了)
 
-![icon002](Animation001.png "这是截图001")
+![icon002](Animation001.png "这是截图001") ![icon003](Animation002.png "这是截图002") ![icon004](Animation003.png "这是截图003")
 
-![icon003](Animation002.png "这是截图002")
 
-![icon004](Animation003.png "这是截图003")
+
+
 
 
 ##License
