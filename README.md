@@ -32,7 +32,7 @@
 
 ### 嗯, 最后放几张图吧(gif图不太好录哦!!!只能是截图了)
 
-![icon002](Animation001.png "这是截图001") 
+![icon002](<img src="./Animation001.png" width = "300" height = "200" alt="图片名称" align=center /> "这是截图001") 
 
 ![icon003](Animation002.png "这是截图002") 
 
