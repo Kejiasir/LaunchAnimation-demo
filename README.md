@@ -14,7 +14,7 @@
 *   2. 在终端执行 `pod install` 或 `pod update` 命令<br> 
 
 ## 它如何使用?
-*  如您所见, 一句代码:
+*  如您所见, 一句代码 :
 *  在 `AppDelegate.m` 文件中 `import "LaunchImageView.h"` 头文件即可
 ```Objective-C
 // 切记:在添加前必须先设置window的视图可见并显示
@@ -28,13 +28,13 @@
 ## 另外需要注意的<br>
 **请把启动图片放在项目的 `Assets.xcassets` 文件中, 应当从Brand Assets中加载**
 
-<img src="tipsImage.png?v=3&s=100" alt="GitHub" title="启动图片应当从Brand Assets中加载" width="780" height="220"/>
+<img src="IMAGE/img_000.png?v=3&s=100" alt="GitHub" title="启动图片应当从Brand Assets中加载" width="780" height="220"/>
 
 ### 嗯, 最后放几张图吧(gif图不太好录哦!!! 只能是截图了)
 
-<img src="Animation001.png?v=3&s=100" alt="GitHub" title="第一种动画效果" width="260" height="480"/> 
-<img src="Animation002.png?v=3&s=100" alt="GitHub" title="第二种动画效果" width="260" height="480"/> 
-<img src="Animation003.png?v=3&s=100" alt="GitHub" title="第三种动画效果" width="260" height="480"/>
+<img src="IMAGE/img_001.png?v=3&s=100" alt="GitHub" title="第一种动画效果" width="260" height="480"/> 
+<img src="IMAGE/img_002.png?v=3&s=100" alt="GitHub" title="第二种动画效果" width="260" height="480"/> 
+<img src="IMAGE/img_003.png?v=3&s=100" alt="GitHub" title="第三种动画效果" width="260" height="480"/>
  
 
 ##License
