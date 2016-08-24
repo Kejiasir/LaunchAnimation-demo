@@ -3,7 +3,7 @@
 *  动画执行时间提供参数可以自行调整. 
 *  您只需要一句代码就能使启动图开启一个动画效果.
 *  暂时有三种效果, 提供一个枚举可任意选择, 后续再增加一些其他的效果.
-*  哈哈, 话说之前写过这个Demo [一个裁剪图片的小工具类,通过一句代码调用](http://www.cnblogs.com/arvin-sir/p/5094445.html), 当时是不知道如何获取应用的启动图的, 现在呢, 知道了O(∩_∩)O哈哈哈~, 所以就写了这个简单的库, 核心代码都是一样一样的, 写的不好希望大家多多鼓励多多包涵...
+*  哈哈, 话说之前写过这个Demo [一个裁剪图片的小工具类,通过一句代码调用](http://www.cnblogs.com/arvin-sir/p/5094445.html), 当时是不知道如何获取应用的启动图的, 现在呢, 知道了O(∩_∩)O哈哈哈~, 所以就写了这个简单的依赖库, 核心代码都是一样一样的, 写的不好希望大家多多鼓励多多包涵...
 
 
 ### 0824更新, 版本: 0.2.0
@@ -12,7 +12,7 @@
 * 感觉后面两种有点bug, 如果有大神的话请指点下
 ```Objective-C
 // 设置为NO(默认)的话, LaunchImageView 会被强引用导致内存无法释放
-// 如果是设置为YES, 内存可以释放, LaunchImageView 可以调用 dealloc 方法, 但是结束会'闪'一下
+// 如果是设置为YES, 内存可以释放, LaunchImageView 会调用 dealloc 方法, 但是结束会'闪'一下
 [positionAnima setRemovedOnCompletion:YES];
 ```
 
@@ -49,7 +49,7 @@
 
 <img src="IMAGE/img_000.png?v=3&s=100" alt="GitHub" title="启动图片应当从Brand Assets中加载" width="780" height="220"/>
 
-### 嗯, 最后放几张图吧(git 录的有点卡, 用真机测过没问题)
+### 嗯, 最后放几张图吧(模拟器录的gif有点卡, 使用真机测过没问题)
 
 <img src="IMAGE/001.gif?v=3&s=100" alt="GitHub" title="第一种动画效果" width="260" height="480"/> 
 <img src="IMAGE/002.gif?v=3&s=100" alt="GitHub" title="第二种动画效果" width="260" height="480"/> 
