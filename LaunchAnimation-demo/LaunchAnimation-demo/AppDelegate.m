@@ -23,10 +23,16 @@
     [self.window setRootViewController:[[UINavigationController alloc]
                                         initWithRootViewController:[[ViewController alloc] init]]];
     [self.window makeKeyAndVisible];
-    [self.window addSubview:[[LaunchImageView alloc]
-                             initWithFrame:self.window.bounds
-                             animationType:AnimationTypeUpAndDown
+    // 类方法
+    [self.window addSubview:[LaunchImageView
+                             launchImageWithFrame:self.window.bounds
+                             animationType:AnimationTypeCurveEaseOut
                              duration:1.5f]];
+    // 对象方法
+//    [self.window addSubview:[[LaunchImageView alloc]
+//                             initWithFrame:self.window.bounds
+//                             animationType:AnimationTypeUpAndDown
+//                             duration:1.5f]];
     return YES;
 }
 
