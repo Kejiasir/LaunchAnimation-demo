@@ -4,6 +4,11 @@
 *  暂时有三种效果, 提供一个枚举可任意选择, 后续再增加一些其他的效果.
 *  哈哈, 话说之前写过这个Demo [一个裁剪图片的小工具类,通过一句代码调用](http://www.cnblogs.com/arvin-sir/p/5094445.html), 当时是不知道如何获取应用的启动图的, 现在呢, 知道了O(∩_∩)O哈哈哈~, 所以就写了这个简单的库, 核心代码都是一样一样的, 写的不好希望大家多多鼓励多多包涵...
 
+### 0824更新, 版本:0.2.0
+* 新增了三种动画效果, 具体请看实例图片
+* 同样是枚举, 可以任意选择使用您想要的效果
+* 感觉后面两种有点bug, 如果有大神的话请指点下
+
 ##  要怎么集成?
 ### 手动添加:<br>
 *   1. Clone or download 本项目
@@ -30,11 +35,15 @@
 
 <img src="IMAGE/img_000.png?v=3&s=100" alt="GitHub" title="启动图片应当从Brand Assets中加载" width="780" height="220"/>
 
-### 嗯, 最后放几张图吧(gif图不太好录哦!!! 只能是截图了)
+### 嗯, 最后放几张图吧(git 录的有点卡, 用真机测过没问题)
 
-<img src="IMAGE/img_001.png?v=3&s=100" alt="GitHub" title="第一种动画效果" width="260" height="480"/> 
-<img src="IMAGE/img_002.png?v=3&s=100" alt="GitHub" title="第二种动画效果" width="260" height="480"/> 
-<img src="IMAGE/img_003.png?v=3&s=100" alt="GitHub" title="第三种动画效果" width="260" height="480"/>
+<img src="IMAGE/001.gif?v=3&s=100" alt="GitHub" title="第一种动画效果" width="260" height="480"/> 
+<img src="IMAGE/002.gif?v=3&s=100" alt="GitHub" title="第二种动画效果" width="260" height="480"/> 
+<img src="IMAGE/003.gif?v=3&s=100" alt="GitHub" title="第三种动画效果" width="260" height="480"/>
+<img src="IMAGE/004.gif?v=3&s=100" alt="GitHub" title="第四种动画效果" width="260" height="480"/>
+<img src="IMAGE/005.gif?v=3&s=100" alt="GitHub" title="第五种动画效果" width="260" height="480"/>
+<img src="IMAGE/006.gif?v=3&s=100" alt="GitHub" title="第六种动画效果" width="260" height="480"/>
+
  
 
 ##License
