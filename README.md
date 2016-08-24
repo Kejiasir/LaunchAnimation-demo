@@ -4,10 +4,17 @@
 *  暂时有三种效果, 提供一个枚举可任意选择, 后续再增加一些其他的效果.
 *  哈哈, 话说之前写过这个Demo [一个裁剪图片的小工具类,通过一句代码调用](http://www.cnblogs.com/arvin-sir/p/5094445.html), 当时是不知道如何获取应用的启动图的, 现在呢, 知道了O(∩_∩)O哈哈哈~, 所以就写了这个简单的库, 核心代码都是一样一样的, 写的不好希望大家多多鼓励多多包涵...
 
-### 0824更新, 版本:0.2.0
-* 新增了三种动画效果, 具体请看实例图片
+
+### 0824更新, 版本: 0.2.0
+* 新增了三种动画效果, 具体请看示例图片
 * 同样是枚举, 可以任意选择使用您想要的效果
 * 感觉后面两种有点bug, 如果有大神的话请指点下
+```Objective-C
+// 设置为NO(默认)的话, LaunchImageView 会被强应用导致内存无法释放
+// 如果是设置为YES, 内存可以释放, LaunchImageView 可以调用dealloc 方法, 但是结束会'闪'一下
+[positionAnima setRemovedOnCompletion:YES];
+```
+
 
 ##  要怎么集成?
 ### 手动添加:<br>
@@ -15,7 +22,7 @@
 *   2. 将Demo中的 `LaunchAnimaiton` 文件夹Copy到您的工程目录中<br> 
 
 ### CocoaPods:<br>
-*   1. 在 Podfile 中添加 `pod 'LaunchAnimaiton', '~> 0.1.0'`<br>
+*   1. 在 Podfile 中添加 `pod 'LaunchAnimaiton', '~> 0.2.0'`<br>
 *   2. 在终端执行 `pod install` 或 `pod update` 命令<br> 
 
 ## 它如何使用?
