@@ -10,8 +10,8 @@
 * 同样是枚举, 可以任意选择使用您想要的效果
 * 感觉后面两种有点bug, 如果有大神的话请指点下
 ```Objective-C
-// 设置为NO(默认)的话, LaunchImageView 会被强应用导致内存无法释放
-// 如果是设置为YES, 内存可以释放, LaunchImageView 可以调用dealloc 方法, 但是结束会'闪'一下
+// 设置为NO(默认)的话, `LaunchImageView` 会被强引用导致内存无法释放
+// 如果是设置为YES, 内存可以释放, `LaunchImageView` 可以调用 `dealloc` 方法, 但是结束会'闪'一下
 [positionAnima setRemovedOnCompletion:YES];
 ```
 
