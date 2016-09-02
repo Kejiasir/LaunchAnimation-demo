@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/Kejiasir/LaunchAnimation-demo.svg?branch=master)](https://travis-ci.org/Kejiasir/LaunchAnimation-demo)
+[![CocoaPods](https://img.shields.io/cocoapods/v/LaunchAnimation.svg)](http://cocoadocs.org/docsets/LaunchAnimation)
+[![CocoaPods](https://img.shields.io/cocoapods/p/LaunchAnimation.svg)](http://cocoadocs.org/docsets/LaunchAnimation)
+[![CocoaPods](https://img.shields.io/cocoapods/l/LaunchAnimation.svg)](https://raw.githubusercontent.com/kejiasir/LaunchAnimation/master/LICENSE)
+
 ## 这是什么鬼?
 *  这是一个简单的启动图动画.
 *  动画执行时间提供参数可以自行调整. 
