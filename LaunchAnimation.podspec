@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT" 
   s.author       = { "Arvin" => "yasir86@126.com" } 
   s.platform     = :ios, "7.0" 
-  s.source       = { :git => "https://github.com/Kejiasir/LaunchAnimation-demo.git", :tag => "0.2.0" }
+  s.source       = { :git => "https://github.com/Kejiasir/LaunchAnimation-demo.git", :tag => s.version }
   s.source_files = "LaunchAnimation-demo/LaunchAnimation-demo/LaunchAnimation/*.{h,m}" 
   s.requires_arc = true 
 end
