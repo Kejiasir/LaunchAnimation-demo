@@ -56,13 +56,30 @@
 
 ### 嗯, 最后放几张图吧(模拟器录的gif有点卡, 使用真机测过没问题)
 
-<img src="IMAGE/001.gif?v=3&s=100" alt="GitHub" title="第一种动画效果" width="260" height="480"/> 
-<img src="IMAGE/002.gif?v=3&s=100" alt="GitHub" title="第二种动画效果" width="260" height="480"/> 
-<img src="IMAGE/003.gif?v=3&s=100" alt="GitHub" title="第三种动画效果" width="260" height="480"/>
-<img src="IMAGE/004.gif?v=3&s=100" alt="GitHub" title="第四种动画效果" width="260" height="480"/>
-<img src="IMAGE/005.gif?v=3&s=100" alt="GitHub" title="第五种动画效果" width="260" height="480"/>
-<img src="IMAGE/006.gif?v=3&s=100" alt="GitHub" title="第六种动画效果" width="260" height="480"/>
-
+<table>
+ <tr>
+  <td>
+    <img src="IMAGE/001.gif" width="300"/>
+  </td>
+  <td>
+    <img src="IMAGE/002.gif" width="300"/>
+  </td>
+  <td>
+    <img src="IMAGE/003.gif" width="300"/>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <img src="IMAGE/004.gif" width="300"/>
+  </td>
+  <td>
+    <img src="IMAGE/005.gif" width="300"/>
+  </td>
+  <td>
+    <img src="IMAGE/006.gif" width="300"/>
+  </td>
+ </tr>
+ </table>
  
 
 ##License
