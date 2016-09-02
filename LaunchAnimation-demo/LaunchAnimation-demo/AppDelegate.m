@@ -26,7 +26,7 @@
     // 类方法
     [self.window addSubview:[LaunchImageView
                              launchImageWithFrame:self.window.bounds
-                             animationType:AnimationTypeLeftAndRight
+                             animationType:AnimationTypeUpAndDown
                              duration:1.5f]];
     // 对象方法
 //    [self.window addSubview:[[LaunchImageView alloc]
